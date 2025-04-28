@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    background-color: #FAFAFA;
+    background-image: url(Side\ image\ -\ cadastro.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#container{
+    width: 50vh;
+    height: 35%;
+    background-color: aqua;
+    justify-items: right;
+    align-items: right;
+
+}
+.side-image {
+    flex: 1;
+    background-image: url("Side\ image\ -\ cadastro.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.form{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    background-color: #FAFAFA;
+}
+
+.input-group { 
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 1rem 0;
+}
+.input-box1{
+    width: 240px;
+display: flex;
+flex-direction: column;
+margin-bottom: 1.1rem;
+}
+
+.input-box2{
+    width: 380px;
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 1.1rem;
+}
+
+.input-box3{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+.input-box3 span{
+    transform:translateY(-50%);
+    position: absolute;
+}
+
+.form-selecting{
+    width: 380px;
+display: flex;
+flex-direction: column;
+margin-bottom: 1.1rem;
+}
+.form-header{
+    text-align: center;
+}    
+
+
+@media screen and (max-width: 1064px) {
+    .form{
+        width: 100%;
+    }
+    .container {
+        width: 90%;
+        height: auto;
+    }
+    .input-group{
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 20rem;
+        padding-right: 2,5rem;
+        padding-left: 1rem;
+    }
+    .input-box1{
+        width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    border: 1px;
+    border-radius: 4px;
+    }
+    .input-box2{
+        width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    border: 1px;
+    border-radius: 4px;
+    }
+    .form-selecting{
+        width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    border: 1px solid;
+    border-radius: 4px;
+    }
+   
+}
